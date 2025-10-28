@@ -1,0 +1,22 @@
+nombre = "Carina"
+
+# Las cadenas son inmutables, no se pueden modificar
+# nombre[0] = "A"
+print(nombre)
+
+n1 = "Kari"
+n2 = "na"
+print(n1 + n2)
+
+print(n1 * 10)
+
+poema = """Mil pequeños peces blancos
+como si hirviera
+el color del agua"""
+print(poema)
+
+print("agua" in poema)
+print("agua" not in poema)
+
+print(len(nombre))
+print(len(poema))
